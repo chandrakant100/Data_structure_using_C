@@ -38,6 +38,7 @@ struct node* insert_start(struct node *f)
     c->data=num;
     c->next=f;
     f=c;
+    display(f);
    return f;
 }
 void insert_end(struct node *l,struct node *f)
@@ -113,6 +114,5 @@ int main()
         default:
              printf("\nERROR");
     }
-    display(f);
     return 0;  
 }
