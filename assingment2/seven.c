@@ -13,7 +13,7 @@ void create(int num,struct node **f)
     {
     struct node *c=(struct node *)malloc(sizeof(struct node));
     c->next=NULL;
-    printf("\nEnter the data %d: ",i+1);
+    printf("\nEnter the data:");
 
     scanf("%d",&c->data);
     if(*f==NULL)
@@ -24,10 +24,10 @@ void create(int num,struct node **f)
     } 
 
 }
-struct node* copy_list(struct node *f)
+void copy_list(struct node *f)
 {
-    struct node *f1=NULL,*l;
-    while(f!=NULL)
+    struct node *f1=NULL,*l,*f2=f;
+    while(f2!=NULL)
     {
         struct node *c=(struct node *)malloc(sizeof(struct node));
         c->next=NULL;
@@ -37,27 +37,19 @@ struct node* copy_list(struct node *f)
         else
             l->next=c;
             l=c;
-        f=f->next;    
+        f2=f2->next;    
     }
-    return f1;
-    
+    display(f);   
 }
 void display(struct node *pt)
 {
-    while(pt!=NULL)
+    struct node *pt1=pt;
+    while(pt1!=NULL)
         {
-            printf("\nThe data are:%d",pt->data);
-            pt=pt->next;
+            printf("\nThe data are:%d",pt1->data);
+            pt1=pt1->next;
         }
 }
-/*void display_1(struct node *pt)
-{
-    while(pt!=NULL)
-        {
-            printf("\nThe data are:%d",pt->data);
-            pt=pt->next;
-        }
-}*/
 int main()
 {
     int num;
@@ -65,9 +57,8 @@ int main()
     printf("Enter the number of inputs:");
     scanf("%d",&num);
     create(num,&f);
-    f1=copy_list(f);
     display(f);
-    printf("\nThe data in the new List are:\n");
-    display(f1);
+    printf("\nThe copied data in another list are:\n");
+    copy_list(f);
     return 0;  
 }
