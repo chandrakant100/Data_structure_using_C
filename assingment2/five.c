@@ -32,18 +32,16 @@ void prime(node *f)
         while(f!=NULL)
         {
             num=f->data;
-            for(i=2;i<num;i++)
+            for(i=2;i<=(num/2);i++)
             {
                 if(num%i==0)
                 {
                         temp=0;
                         break;
-            
                 }
             }            
             if(temp==1)
                 printf("%d ",num);
-
             f=f->next;            
         }
 }
