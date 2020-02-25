@@ -27,14 +27,23 @@ void create(node **f,int num)
 }
 void prime(node *f)
 {
-        int num,i;
+        int num,i,temp=1;
         printf("\nThe Prime numbers in the list are:\n");
         while(f!=NULL)
         {
             num=f->data;
             for(i=2;i<num;i++)
-                if(num%i!=0)
-                        printf("%d ",num);
+            {
+                if(num%i==0)
+                {
+                        temp=0;
+                        break;
+            
+                }
+            }            
+            if(temp==1)
+                printf("%d ",num);
+
             f=f->next;            
         }
 }
