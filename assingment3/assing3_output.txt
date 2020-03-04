@@ -1,0 +1,41 @@
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ gcc -o run one.c
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ ./run
+
+Enter the string:
+john wick
+Do you want to continue(Y/N):y
+
+Enter the string:
+chandrakant jena
+Do you want to continue(Y/N):y
+
+Enter the string:
+boogeyman
+Do you want to continue(Y/N):n
+
+----string after sorting----
+boogeyman
+chandrakant jena
+john wick
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ 
+
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ gcc -o run two.c 
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ ./run
+
+Enter the data:
+3.3
+Do you want to continue(Y/N):y
+
+Enter the data:
+7.2
+Do you want to continue(Y/N):y
+
+Enter the data:
+1.1
+Do you want to continue(Y/N):n
+
+----Data after sorting in ascending order----
+1.10
+3.30
+7.20
+chandrakant@ASUS:~/Chandrakant/Data_structure_using_C/assingment3$ 
