@@ -1,6 +1,6 @@
 
 # DATA_STRUCTURE USING C
-![](http://www.digitalexpert.co/images/courses/data-structure.png height="300"width="500"align="middle")
+![]("http://www.digitalexpert.co/images/courses/data-structure.png" height="300"width="500"align="middle")
 ## DS-Assignments for IMCA 2019-2024
 ## --------PLEASE TRY TO SOLVE YOURSELF BEFORE VIEWING--------
 ##### [assingment1](https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment1)
