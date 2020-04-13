@@ -1,13 +1,11 @@
-<html> 
-<h1>DATA_STRUCTURE USING C</h1>
-<body>  
-<img src="http://www.digitalexpert.co/images/courses/data-structure.png"height="300"width="500"align="middle">  
-<h2>DS-Assignments for IMCA 2019-2024</h2>
-<h2>--------PLEASE TRY TO SOLVE YOURSELF BEFORE VIEWING--------</h2>
-<h5><a href="https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment1">assingment1</a></h5>
-  <h5><a href="https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment2">assingment2</a></h5>
-  <h5><a href="https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment3">assingment3</a></h5>
-  <h5><a href="https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment4">assingment4</a></h5>
-  <h5><a href="https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment5">assingment5</a></h5>
-</body>  
-</html>
+
+# DATA_STRUCTURE USING C
+<img src="http://www.digitalexpert.co/images/courses/data-structure.png"height="300"width="500"align="middle"> 
+## DS-Assignments for IMCA 2019-2024
+## --------PLEASE TRY TO SOLVE YOURSELF BEFORE VIEWING--------
+##### [assingment1]("https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment1")
+##### [assingment2]("https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment2")
+##### [assingment3]("https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment3")
+##### [assingment4]("https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment4")
+##### [assingment5]("https://github.com/chandrakant100/Data_structure_using_C/tree/master/assingment5") 
+
